@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "esnext",
+    "recommended/react-native"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y"
+  ]
+}
