@@ -11,6 +11,7 @@ class LoginForm extends React.Component {
            <Image source={require('../../assets/images/yellowCloud.png')}
                   style={styles.logoStyle}
                   resizeMode={'contain'}/>
+           <Text style={styles.headerStyle}>CHIEF</Text>
          </CardSection>
          <CardSection>
            <Input
@@ -24,7 +25,7 @@ class LoginForm extends React.Component {
          </CardSection>
          <CardSection>
            <Button>
-             Login
+             Let's Chief
            </Button>
          </CardSection>
        </Card>
@@ -35,13 +36,21 @@ class LoginForm extends React.Component {
 
 const styles = {
   logoStyle: {
-    flex: 1,
-    height: 200,
-    width: null
+    height: 75,
+    width: 160,
+    alignSelf: 'flex-start',
+    marginRight: 15
   },
   thumbnailContainerStyle: {
     margin: 15,
-    alignItems: 'center'
+    flexDirection: 'row',
+    alignItems: 'flex-start'
+  },
+  headerStyle: {
+    alignSelf: 'center',
+    justifySelf: 'center',
+    fontSize: 30,
+    fontWeight: 'bold'
   }
 }
 
