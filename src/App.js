@@ -1,11 +1,10 @@
 import React from 'react'
 import { Text, View } from 'react-native'
-import { Button } from './components/common'
+import LoginForm from './components/LoginForm'
+
 const App = () => (
   <View>
-    <Button>
-      Login
-    </Button>
+    <LoginForm/>
   </View>
 )
 
