@@ -1,11 +1,11 @@
 import React from 'react'
 import { Text, View } from 'react-native'
-
+import { Button } from './components/common'
 const App = () => (
   <View>
-    <Text>
-      This is the App
-    </Text>
+    <Button>
+      Login
+    </Button>
   </View>
 )
 
