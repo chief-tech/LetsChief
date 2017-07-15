@@ -1,7 +1,8 @@
 import React from 'react'
-import { Card, CardSection, Input, Button, Spinner } from './common'
-import { Text, View, Image, TouchableHighlight } from 'react-native'
+import { Card, CardSection, Input, ButtonCommon, Spinner } from './common'
+import { Text, View, Image, TouchableOpacity } from 'react-native'
 import firebase from 'firebase'
+import { Actions } from 'react-native-router-flux'
 
 class LoginForm extends React.Component {
   constructor (props) {
@@ -32,6 +33,10 @@ class LoginForm extends React.Component {
       }))
   }
 
+  onRegisterPress = () => {
+
+  }
+
   renderButton = () => {
     if (this.state.loading) {
       return (
@@ -39,9 +44,9 @@ class LoginForm extends React.Component {
       )
     } else {
       return (
-        <Button onPress={this.onButtonPress}>
+        <ButtonCommon onPress={this.onButtonPress}>
           Let's Chief
-        </Button>
+        </ButtonCommon>
       )
     }
   }
@@ -49,42 +54,43 @@ class LoginForm extends React.Component {
   render () {
     console.log(this.state)
     return (
-     <View style={styles.containerStyle}>
        <Card>
-         <CardSection style={styles.thumbnailContainerStyle}>
-           <Image source={require('../../assets/images/yellowCloud.png')}
-                  style={styles.logoStyle}
-                  resizeMode={'contain'}/>
-           <Text style={styles.headerStyle}>CHIEF</Text>
-         </CardSection>
-         <CardSection>
-           <Input
-             label="Email"
-             placeHolder="user@example.com"
-             onChangeText={this.onChangeEmail}
-             value={this.state.email} />
-         </CardSection>
-         <CardSection>
-           <Input
-             label="Password"
-             placeHolder="password"
-             onChangeText={this.onChangePassword}
-             value={this.state.password}
-             secureTextEntry />
-         </CardSection>
-         <Text style={styles.errorTextStyle}>
-           {this.state.error}
-         </Text>
-         <CardSection>
-           {this.renderButton()}
-         </CardSection>
-         <CardSection>
-            <Text style={styles.registrationStyle}>
-              Need an account?
-            </Text>
-         </CardSection>
+         <View style={styles.containerStyle}>
+           <CardSection style={styles.thumbnailContainerStyle}>
+             <Image source={require('../../assets/images/yellowCloud.png')}
+                    style={styles.logoStyle}
+                    resizeMode={'contain'}/>
+             <Text style={styles.headerStyle}>CHIEF</Text>
+           </CardSection>
+           <CardSection>
+             <Input
+               label="Email"
+               placeHolder="user@example.com"
+               onChangeText={this.onChangeEmail}
+               value={this.state.email} />
+           </CardSection>
+           <CardSection>
+             <Input
+               label="Password"
+               placeHolder="password"
+               onChangeText={this.onChangePassword}
+               value={this.state.password}
+               secureTextEntry />
+           </CardSection>
+           <CardSection>
+             {this.renderButton()}
+           </CardSection>
+           <CardSection>
+             <View>
+               <TouchableOpacity onPress={this.onRegisterPress}>
+                 <Text style={styles.registrationStyle}>
+                   Need an account?
+                 </Text>
+               </TouchableOpacity>
+             </View>
+           </CardSection>
+         </View>
        </Card>
-     </View>
     )
   }
 }
@@ -97,7 +103,6 @@ const styles = {
     marginRight: 15
   },
   thumbnailContainerStyle: {
-    margin: 15,
     flexDirection: 'row',
     alignItems: 'flex-start'
   },
@@ -109,7 +114,7 @@ const styles = {
     paddingLeft: 25
   },
   containerStyle: {
-    paddingTop: 130
+    backgroundColor: '#FFF'
   },
   errorTextStyle: {
     color: 'red',
@@ -120,7 +125,7 @@ const styles = {
     padding: 15,
     fontSize: 12,
     alignSelf: 'center',
-    color: '#00C3FF'
+    color: '#007AFF'
   }
 }
 

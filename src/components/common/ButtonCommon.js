@@ -2,7 +2,7 @@ import React from 'react'
 import { Text } from 'react-native'
 import { RkButton } from 'react-native-ui-kitten'
 
-export class Button extends React.Component {
+export class ButtonCommon extends React.Component {
 
   render () {
     return (
