@@ -1,11 +1,55 @@
 import React from 'react'
-import { Card, CardSection, Input, Button } from './common'
-import { Text, View, Image } from 'react-native'
+import { Card, CardSection, Input, Button, Spinner } from './common'
+import { Text, View, Image, TouchableHighlight } from 'react-native'
+import firebase from 'firebase'
 
 class LoginForm extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      email: '',
+      password: '',
+      error: '',
+      loading: false
+    }
+  }
+
+  onChangeEmail = (email) => {
+    this.setState({ email })
+  }
+
+  onChangePassword = (password) => {
+    this.setState({ password })
+  }
+
+  onButtonPress = () => {
+    this.setState({loading: true})
+    firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
+      .then(() => this.setState({ loading: false, error: '' }))
+      .catch(() => this.setState({
+        error: 'Authentication failed',
+        loading: false
+      }))
+  }
+
+  renderButton = () => {
+    if (this.state.loading) {
+      return (
+        <Spinner size='large'/>
+      )
+    } else {
+      return (
+        <Button onPress={this.onButtonPress}>
+          Let's Chief
+        </Button>
+      )
+    }
+  }
+
   render () {
+    console.log(this.state)
     return (
-     <View>
+     <View style={styles.containerStyle}>
        <Card>
          <CardSection style={styles.thumbnailContainerStyle}>
            <Image source={require('../../assets/images/yellowCloud.png')}
@@ -16,17 +60,28 @@ class LoginForm extends React.Component {
          <CardSection>
            <Input
              label="Email"
-             placeHolder="user@example.com"/>
+             placeHolder="user@example.com"
+             onChangeText={this.onChangeEmail}
+             value={this.state.email} />
          </CardSection>
          <CardSection>
            <Input
              label="Password"
-             placeHolder="password"/>
+             placeHolder="password"
+             onChangeText={this.onChangePassword}
+             value={this.state.password}
+             secureTextEntry />
+         </CardSection>
+         <Text style={styles.errorTextStyle}>
+           {this.state.error}
+         </Text>
+         <CardSection>
+           {this.renderButton()}
          </CardSection>
          <CardSection>
-           <Button>
-             Let's Chief
-           </Button>
+            <Text style={styles.registrationStyle}>
+              Need an account?
+            </Text>
          </CardSection>
        </Card>
      </View>
@@ -48,9 +103,24 @@ const styles = {
   },
   headerStyle: {
     alignSelf: 'center',
-    justifySelf: 'center',
     fontSize: 30,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: '#4F678C',
+    paddingLeft: 25
+  },
+  containerStyle: {
+    paddingTop: 130
+  },
+  errorTextStyle: {
+    color: 'red',
+    fontSize: 20,
+    alignSelf: 'center'
+  },
+  registrationStyle: {
+    padding: 15,
+    fontSize: 12,
+    alignSelf: 'center',
+    color: '#00C3FF'
   }
 }
 
