@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardSection, Input, ButtonCommon, Spinner, ErrorModal } from './common'
+import { Card, CardSection, Input, ButtonCommon, Spinner, ErrorModal } from '../common/index'
 import { Text, View, Image } from 'react-native'
 import { Actions } from 'react-native-router-flux'
 import firebase from 'firebase'
@@ -83,7 +83,7 @@ class RegistrationForm extends React.Component {
           loading: false
         })
       })
-      .then(Actions.pop())
+      .then(() => Actions.loginForm())
       .catch(err => {
         this.setState({
           hasError: true,
@@ -113,7 +113,7 @@ class RegistrationForm extends React.Component {
           <View style={styles.containerStyle}>
 
             <CardSection style={styles.thumbnailContainerStyle}>
-              <Image source={require('../../assets/images/yellowCloud.png')}
+              <Image source={require('../../../assets/images/yellowCloud.png')}
                      style={styles.logoStyle}
                      resizeMode={'contain'}/>
               <Text style={styles.headerStyle}>CHIEF</Text>

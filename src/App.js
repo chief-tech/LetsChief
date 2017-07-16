@@ -1,8 +1,8 @@
 import React from 'react'
 import { View } from 'react-native'
 import { Router, Scene } from 'react-native-router-flux'
-import LoginForm from './components/LoginForm'
-import RegistrationForm from './components/RegistrationForm'
+import LoginForm from './components/authenticationFlow/LoginForm'
+import RegistrationForm from './components/authenticationFlow/RegistrationForm'
 import firebase from 'firebase'
 
 export class App extends React.Component {
@@ -22,7 +22,7 @@ export class App extends React.Component {
     return (
       <Router>
         <Scene key="authentication">
-          <Scene key="loginForm" component={LoginForm} title={'Login'}/>
+          <Scene key="loginForm" component={LoginForm} title={'Login'} type="reset"/>
           <Scene key="registrationForm" component={RegistrationForm} title={'Register'}/>
         </Scene>
       </Router>

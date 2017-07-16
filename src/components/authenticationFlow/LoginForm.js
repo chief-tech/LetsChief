@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardSection, Input, ButtonCommon, Spinner, ErrorModal } from './common'
+import { Card, CardSection, Input, ButtonCommon, Spinner, ErrorModal } from '../common/index'
 import { Text, View, Image, TouchableOpacity } from 'react-native'
 import firebase from 'firebase'
 import { Actions } from 'react-native-router-flux'
@@ -66,7 +66,7 @@ class LoginForm extends React.Component {
        <Card>
          <View style={styles.containerStyle}>
            <CardSection style={styles.thumbnailContainerStyle}>
-             <Image source={require('../../assets/images/yellowCloud.png')}
+             <Image source={require('../../../assets/images/yellowCloud.png')}
                     style={styles.logoStyle}
                     resizeMode={'contain'}/>
              <Text style={styles.headerStyle}>CHIEF</Text>
