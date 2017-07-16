@@ -21,7 +21,7 @@ export class App extends React.Component {
   render () {
     return (
       <Router>
-        <Scene key="auth">
+        <Scene key="authentication">
           <Scene key="loginForm" component={LoginForm} title={'Login'}/>
           <Scene key="registrationForm" component={RegistrationForm} title={'Register'}/>
         </Scene>

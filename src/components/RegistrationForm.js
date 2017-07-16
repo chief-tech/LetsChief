@@ -83,7 +83,7 @@ class RegistrationForm extends React.Component {
           loading: false
         })
       })
-      .then(Actions.loginForm({ type: 'reset' }))
+      .then(Actions.pop())
       .catch(err => {
         this.setState({
           hasError: true,
