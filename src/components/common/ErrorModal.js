@@ -1,25 +1,26 @@
 import React from 'react'
 import { View, Text, Modal } from 'react-native'
 import { CardSection } from './CardSection'
-import { Button } from './ButtonCommon'
+import { ButtonCommon } from './ButtonCommon'
 
-export const Confirm = ({visible, children, onAccept, onDecline}) => {
+export const ErrorModal = ({visible, children, onAccept}) => {
   const { containerStyle, textStyle, cardSectionStyle } = styles
   return (
   <Modal
-    animationType={'slide'}
+    animationType={'fade'}
     onRequestClose={() => {}}
     transparent
     visible={visible}
     >
     <View style={containerStyle}>
-      <CardSection style={cardSectionStyle}>
-        <Text style={textStyle}>{children}</Text>
-      </CardSection>
-      <CardSection>
-        <Button onPress={onAccept}>Yes</Button>
-        <Button onPress={onDecline}>No</Button>
-      </CardSection>
+      <View>
+        <CardSection style={cardSectionStyle}>
+          <Text style={textStyle}>{children}</Text>
+        </CardSection>
+        <CardSection>
+          <ButtonCommon onPress={onAccept}>Ok</ButtonCommon>
+        </CardSection>
+      </View>
     </View>
   </Modal>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardSection, Input, ButtonCommon, Spinner } from './common'
+import { Card, CardSection, Input, ButtonCommon, Spinner, ErrorModal } from './common'
 import { Text, View, Image, TouchableOpacity } from 'react-native'
 import firebase from 'firebase'
 import { Actions } from 'react-native-router-flux'
@@ -11,7 +11,8 @@ class LoginForm extends React.Component {
       email: '',
       password: '',
       error: '',
-      loading: false
+      loading: false,
+      hasError: false
     }
   }
 
@@ -29,7 +30,8 @@ class LoginForm extends React.Component {
       .then(() => this.setState({ loading: false, error: '' }))
       .catch(() => this.setState({
         error: 'Authentication failed',
-        loading: false
+        loading: false,
+        hasError: true
       }))
   }
 
@@ -89,6 +91,14 @@ class LoginForm extends React.Component {
                </TouchableOpacity>
              </View>
            </CardSection>
+           <ErrorModal
+            visible={this.state.hasError}
+            onAccept={() => this.setState({
+              error: '',
+              hasError: false
+            })}>
+             <Text style={styles.errorTextStyle}>{this.state.error}</Text>
+           </ErrorModal>
          </View>
        </Card>
     )
