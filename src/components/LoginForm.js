@@ -28,15 +28,22 @@ class LoginForm extends React.Component {
     this.setState({loading: true})
     firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
       .then(() => this.setState({ loading: false, error: '' }))
-      .catch(() => this.setState({
-        error: 'Authentication failed',
+      .catch((err) => this.setState({
+        error: err.message,
         loading: false,
         hasError: true
       }))
   }
 
   onRegisterPress = () => {
-
+    this.setState({
+      email: '',
+      password: '',
+      error: '',
+      loading: false,
+      hasError: false
+    })
+    Actions.registrationForm()
   }
 
   renderButton = () => {
@@ -54,7 +61,7 @@ class LoginForm extends React.Component {
   }
 
   render () {
-    console.log(this.state)
+    console.log('Login State', this.state)
     return (
        <Card>
          <View style={styles.containerStyle}>
@@ -95,7 +102,8 @@ class LoginForm extends React.Component {
             visible={this.state.hasError}
             onAccept={() => this.setState({
               error: '',
-              hasError: false
+              hasError: false,
+              loading: false
             })}>
              <Text style={styles.errorTextStyle}>{this.state.error}</Text>
            </ErrorModal>
@@ -109,19 +117,19 @@ const styles = {
   logoStyle: {
     height: 75,
     width: 160,
-    alignSelf: 'flex-start',
-    marginRight: 15
+    alignSelf: 'center',
+    flex: 1
   },
   thumbnailContainerStyle: {
-    flexDirection: 'row',
-    alignItems: 'flex-start'
+    flexDirection: 'row'
   },
   headerStyle: {
+    textAlign: 'center',
     alignSelf: 'center',
     fontSize: 30,
     fontWeight: 'bold',
     color: '#4F678C',
-    paddingLeft: 25
+    flex: 1
   },
   containerStyle: {
     backgroundColor: '#FFF'
