@@ -69,7 +69,7 @@ class LoginForm extends React.Component {
              <Image source={require('../../../assets/images/yellowCloud.png')}
                     style={styles.logoStyle}
                     resizeMode={'contain'}/>
-             <Text style={styles.headerStyle}>CHIEF</Text>
+             <Text style={styles.headerStyle}>chief</Text>
            </CardSection>
            <CardSection>
              <Input
