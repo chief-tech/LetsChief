@@ -27,7 +27,10 @@ class LoginForm extends React.Component {
   onButtonPress = () => {
     this.setState({loading: true})
     firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
-      .then(() => this.setState({ loading: false, error: '' }))
+      .then(() => {
+        this.setState({ loading: false, error: '' })
+        Actions.rider()
+      })
       .catch((err) => this.setState({
         error: err.message,
         loading: false,
@@ -132,7 +135,8 @@ const styles = {
     flex: 1
   },
   containerStyle: {
-    backgroundColor: '#FFF'
+    backgroundColor: '#FFF',
+    paddingTop: 64
   },
   errorTextStyle: {
     color: 'red',

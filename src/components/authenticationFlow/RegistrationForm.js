@@ -116,7 +116,7 @@ class RegistrationForm extends React.Component {
               <Image source={require('../../../assets/images/yellowCloud.png')}
                      style={styles.logoStyle}
                      resizeMode={'contain'}/>
-              <Text style={styles.headerStyle}>CHIEF</Text>
+              <Text style={styles.headerStyle}>chief</Text>
             </CardSection>
             <CardSection>
               <Input
@@ -177,7 +177,8 @@ const styles = {
     flex: 1
   },
   containerStyle: {
-    backgroundColor: '#FFF'
+    backgroundColor: '#FFF',
+    paddingTop: 64
   },
   errorTextStyle: {
     color: 'red',
