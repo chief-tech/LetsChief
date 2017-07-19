@@ -48,7 +48,8 @@ export default class MapScene extends React.Component {
       <MapView
         style={styles.mapStyle}
         region={this.state.region}
-        onRegionChange={this.onRegionChange} >
+        onRegionChange={this.onRegionChange}
+        provider={PROVIDER_GOOGLE}>
         <MapView.Marker
           coordinate={marker.latLng}
           title={'Your current position'}
