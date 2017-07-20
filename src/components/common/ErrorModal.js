@@ -7,7 +7,7 @@ export const ErrorModal = ({visible, children, onAccept}) => {
   const { containerStyle, textStyle, cardSectionStyle } = styles
   return (
   <Modal
-    animationType={'fade'}
+    animationType={'slide'}
     onRequestClose={() => {}}
     transparent
     visible={visible}
