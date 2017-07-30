@@ -1,7 +1,856 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f014f91d-8494-4c9e-912e-3f92b84368dd" name="Default" comment="" />
+    <list default="true" id="f014f91d-8494-4c9e-912e-3f92b84368dd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/yellowCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/GoogleMapsBase" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Versions/A/GoogleMapsBase" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Versions/Current" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/AppIcon.appiconset/Maps-SDK-Demo-App_120.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/AppIcon.appiconset/Maps-SDK-Demo-App_152.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/AppIcon.appiconset/Maps-SDK-Demo-App_167.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/AppIcon.appiconset/Maps-SDK-Demo-App_180.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/AppIcon.appiconset/Maps-SDK-Demo-App_76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/h1@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/spitfire.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/spitfire@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/voyager.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/voyager@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/x29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/Museum-Icons/x29@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/aeroplane.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/aeroplane@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/argentina-large.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/argentina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/arrow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/australia-large.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/australia-large@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/australia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/boat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/boat@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/botswana-large.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/botswana.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/bulgaria-large.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/bulgaria.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/glow-marker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/glow-marker@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/newark_nj_1922.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/popup_santa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/popup_santa@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step1@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step2@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step3@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step4@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step5@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step6@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step7@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/step8@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/GoogleMaps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/GoogleMaps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCacheStorage.momd/Storage.omo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCacheStorage.momd/VersionInfo.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/DroidSansMerged-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavNightModeSprites-0-3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Black.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-BlackItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-BoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-LightItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-MediumItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-Thin.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Roboto-ThinItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/RobotoCondensed-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/RobotoCondensed-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Siemreap.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/Tharlon-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ar.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_background@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_background@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass_night.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_compass_night@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ca.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/cs.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/da.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/dav_one_way_16_256.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/de.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/el.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/en.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/en_AU.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/en_GB.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/en_IN.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/es.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/es_419.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/es_MX.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/fi.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/fr.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/fr_CA.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/googlelogo_56x20_with_2_stroke_color_60x22pt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/googlelogo_56x20_with_2_stroke_color_60x22pt@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/googlelogo_56x20_with_2_stroke_color_60x22pt@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/googlelogo_light_56x20_with_2_stroke_color_60x22pt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/googlelogo_light_56x20_with_2_stroke_color_60x22pt@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/googlelogo_light_56x20_with_2_stroke_color_60x22pt@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/he.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/hi.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/hr.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/hu.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ic_compass_needle@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ic_qu_direction_mylocation@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/id.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/it.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ja.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ko.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ms.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/nb.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/nl.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/pl.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture_dim.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/pt.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/pt_BR.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/pt_PT.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ro.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_1-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_128-32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_16-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_2-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_256-64.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_32-8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_4-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_64-16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/road_8-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/ru.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/sk.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/sv.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/th.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/tr.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/vi.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/zh_CN.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/zh_HK.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/GMSCoreResources.bundle/zh_TW.lproj/GMSCore.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/bubble_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/bubble_left@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/bubble_left@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/bubble_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/bubble_right@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/bubble_right@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/default_marker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/default_marker@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/default_marker@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle/oss_licenses_maps.txt.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/Current" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/GoogleMapsCore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/Headers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/Modules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/Versions/A/GoogleMapsCore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/Versions/Current" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.buckconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.eslintrc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.flowconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__tests__/index.android.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__tests__/index.ios.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/BUCK" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/proguard-rules.pro" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/letschief/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/letschief/MainApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/gradle.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/gradlew" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/gradlew.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/keystores/BUCK" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/keystores/debug.keystore.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/settings.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.android.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.ios.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChief-tvOS/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChief-tvOSTests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChief.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChief.xcodeproj/xcshareddata/xcschemes/LetsChief-tvOS.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChief.xcodeproj/xcshareddata/xcschemes/LetsChief.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChief.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChief/AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChief/AppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChief/Base.lproj/LaunchScreen.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChief/Images.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChief/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChief/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChiefTests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/LetsChiefTests/LetsChiefTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Podfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Podfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Versions/A/Headers/GMSCompatabilityMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Versions/A/Headers/GMSCoordinateBounds.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Versions/A/Headers/GoogleMapsBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Versions/A/Modules/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/CHANGELOG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/DemoAppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/DemoAppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/MapsDemoAssets.xcassets/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/MasterViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/MasterViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/LaunchScreen.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ar.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ca.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/cs.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/da.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/de.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/el.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/en_GB.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/es.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/fi.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/fr.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/he.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/hr.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/hu.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/id.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/it.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ja.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ko.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/mapstyle-night.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/mapstyle-retro.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/mapstyle-silver.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ms.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/museum-exhibits.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/nb.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/nl.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/pl.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/pt.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/pt_PT.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ro.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/ru.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/sk.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/sv.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/th.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/tr.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/track.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/uk.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/vi.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/zh_CN.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Resources/zh_TW.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/SDKDemoAPIKey.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/AnimatedCurrentLocationViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/AnimatedCurrentLocationViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/AnimatedUIViewMarkerViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/AnimatedUIViewMarkerViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/BasicMapViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/BasicMapViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/CameraViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/CameraViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/CustomIndoorViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/CustomIndoorViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/CustomMarkersViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/CustomMarkersViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/DoubleMapViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/DoubleMapViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/FitBoundsViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/FitBoundsViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/FixedPanoramaViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/FixedPanoramaViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/FrameRateViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/FrameRateViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GeocoderViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GeocoderViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GestureControlViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GestureControlViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GradientPolylinesViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GradientPolylinesViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GroundOverlayViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/GroundOverlayViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/IndoorMuseumNavigationViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/IndoorMuseumNavigationViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/IndoorViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/IndoorViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MapLayerViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MapLayerViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MapTypesViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MapTypesViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MapZoomViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MapZoomViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkerEventsViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkerEventsViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkerInfoWindowViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkerInfoWindowViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkerLayerViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkerLayerViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkersViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MarkersViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MyLocationViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/MyLocationViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/PanoramaViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/PanoramaViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/PolygonsViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/PolygonsViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/PolylinesViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/PolylinesViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/Samples.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/Samples.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/SnapshotReadyViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/SnapshotReadyViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/StructuredGeocoderViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/StructuredGeocoderViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/StyledMapViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/StyledMapViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/TileLayerViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/TileLayerViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/TrafficMapViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/TrafficMapViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/VisibleRegionViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/Samples/VisibleRegionViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/GoogleMapsDemos/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/Podfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Example/README.GoogleMapsDemos" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSAddress.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSCALayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSCameraPosition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSCameraUpdate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSCircle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSCoordinateBounds+GoogleMaps.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSDeprecationMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSGeocoder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSGeometryUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSGroundOverlay.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSIndoorBuilding.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSIndoorDisplay.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSIndoorLevel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMapLayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMapStyle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMapView+Animation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMapView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMarker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMarkerLayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSMutablePath.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSOrientation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSOverlay.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanorama.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaCamera.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaCameraUpdate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaLayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaLink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaService.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPath.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPolygon.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSPolyline.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSProjection.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSServices.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSSyncTileLayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSTileLayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSUISettings.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GMSURLTileLayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Headers/GoogleMaps.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Modules/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/Versions/A/Headers/GoogleMapsCore.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework/Versions/A/Modules/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/GoogleMaps/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAccessibilityManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTActionSheetManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTActivityIndicatorView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTActivityIndicatorViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAlertManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTAdditionAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTAnimationDriver.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTAnimationUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTDecayAnimation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTDiffClampAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTDivisionAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTEventAnimation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTFrameAnimation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTInterpolationAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTModuloAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTMultiplicationAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTNativeAnimatedModule.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTNativeAnimatedNodesManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTPropsAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTSpringAnimation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTStyleAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTTransformAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimation/RCTValueAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAnimationType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAppState.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAssert.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAsyncLocalStorage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTAutoInsetsProtocol.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTBorderDrawing.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTBorderStyle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTBridge+JavaScriptCore.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTBridge+Private.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTBridge.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTBridgeDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTBridgeMethod.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTBridgeModule.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTBundleURLProvider.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTClipboard.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTComponent.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTComponentData.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTConvert+CoreLocation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTConvert+Text.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTConvert+Transform.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTConvert.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTDataRequestHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTDatePicker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTDatePickerManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTDefines.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTDevSettings.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTDeviceInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTDisplayLink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTErrorCustomizer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTErrorInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTEventDispatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTEventEmitter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTExceptionsManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTFPSGraph.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTFileRequestHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTFont.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTFrameUpdate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTGIFImageDecoder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTHTTPRequestHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTI18nManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTI18nUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTImageBlurUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTImageEditingManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTImageLoader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTImageShadowView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTImageSource.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTImageStoreManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTImageUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTImageView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTImageViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTInvalidating.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTJSCErrorHandling.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTJSCProfiler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTJSCSamplingProfiler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTJSStackFrame.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTJavaScriptExecutor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTJavaScriptLoader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTKeyCommands.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTKeyboardObserver.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTLinkingManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTLocalAssetImageLoader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTLocationObserver.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTLog.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTModalHostView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTModalHostViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTModalHostViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTModuleData.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTModuleMethod.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTMultipartDataTask.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTMultipartStreamReader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTNavItem.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTNavItemManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTNavigator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTNavigatorManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTNetInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTNetworkTask.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTNullability.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTParserUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTPerformanceLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTPicker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTPickerManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTPlatform.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTPointerEvents.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTProfile.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTProgressViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTRawTextManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTReconnectingWebSocket.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTRedBox.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTRefreshControl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTRefreshControlManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTReloadCommand.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTResizeMode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTRootContentView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTRootShadowView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTRootView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTRootViewDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTRootViewInternal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTSRWebSocket.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTScrollContentShadowView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTScrollContentViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTScrollView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTScrollViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTScrollableProtocol.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTSegmentedControl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTSegmentedControlManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTSettingsManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTShadowRawText.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTShadowText.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTShadowTextField.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTShadowTextView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTShadowView+Layout.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTShadowView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTSlider.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTSliderManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTSourceCode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTStatusBarManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTSwitch.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTSwitchManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTVNavigationEventEmitter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTVRemoteHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTabBar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTabBarItem.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTabBarItemManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTabBarManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTText.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTextDecorationLineType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTextField.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTextFieldManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTextManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTextSelection.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTextView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTextViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTiming.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTouchEvent.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTTouchHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTUIManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTUIManagerObserverCoordinator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTUITextField.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTUITextView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTURLRequestDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTURLRequestHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTVibration.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTViewControllerProtocol.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTWebSocketExecutor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTWebSocketModule.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTWebSocketObserver.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTWebSocketObserverProtocol.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTWebView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTWebViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/RCTWrapperViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/UIView+Private.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/React/UIView+React.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/Yoga/YGEnums.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/Yoga/YGMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/Yoga/YGNodeList.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Private/Yoga/Yoga.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAddress.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCALayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraPosition.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraUpdate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCircle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCoordinateBounds+GoogleMaps.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSDeprecationMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeocoder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeometryUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGroundOverlay.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorBuilding.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorDisplay.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorLevel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapLayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapStyle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView+Animation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarkerLayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMutablePath.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOrientation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOverlay.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanorama.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCamera.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCameraUpdate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaService.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPath.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolygon.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolyline.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSProjection.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSServices.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSSyncTileLayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSTileLayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUISettings.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSURLTileLayer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMaps/GoogleMaps.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMapsBase/GMSCompatabilityMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMapsBase/GMSCoordinateBounds.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMapsBase/GoogleMapsBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/GoogleMaps/GoogleMapsCore/GoogleMapsCore.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAccessibilityManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTActionSheetManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTActivityIndicatorView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTActivityIndicatorViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAlertManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTAdditionAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTAnimationDriver.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTAnimationUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTDecayAnimation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTDiffClampAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTDivisionAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTEventAnimation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTFrameAnimation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTInterpolationAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTModuloAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTMultiplicationAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTNativeAnimatedModule.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTNativeAnimatedNodesManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTPropsAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTSpringAnimation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTStyleAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTTransformAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimation/RCTValueAnimatedNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAnimationType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAppState.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAssert.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAsyncLocalStorage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTAutoInsetsProtocol.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTBorderDrawing.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTBorderStyle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTBridge+JavaScriptCore.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTBridge+Private.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTBridge.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTBridgeDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTBridgeMethod.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTBridgeModule.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTBundleURLProvider.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTClipboard.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTComponent.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTComponentData.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTConvert+CoreLocation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTConvert+Text.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTConvert+Transform.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTConvert.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTDataRequestHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTDatePicker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTDatePickerManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTDefines.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTDevSettings.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTDeviceInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTDisplayLink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTErrorCustomizer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTErrorInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTEventDispatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTEventEmitter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTExceptionsManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTFPSGraph.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTFileRequestHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTFont.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTFrameUpdate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTGIFImageDecoder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTHTTPRequestHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTI18nManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTI18nUtil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTImageBlurUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTImageCache.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTImageEditingManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTImageLoader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTImageShadowView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTImageSource.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTImageStoreManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTImageUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTImageView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTImageViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTInvalidating.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTJSCErrorHandling.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTJSCProfiler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTJSCSamplingProfiler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTJSStackFrame.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTJavaScriptExecutor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTJavaScriptLoader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTKeyCommands.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTKeyboardObserver.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTLinkingManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTLocalAssetImageLoader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTLocationObserver.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTLog.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTModalHostView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTModalHostViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTModalHostViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTModuleData.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTModuleMethod.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTMultipartDataTask.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTMultipartStreamReader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTNavItem.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTNavItemManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTNavigator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTNavigatorManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTNetInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTNetworkTask.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTNullability.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTParserUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTPerformanceLogger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTPicker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTPickerManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTPlatform.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTPointerEvents.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTProfile.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTProgressViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTRawTextManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTReconnectingWebSocket.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTRedBox.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTRefreshControl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTRefreshControlManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTReloadCommand.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTResizeMode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTRootContentView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTRootShadowView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTRootView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTRootViewDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTRootViewInternal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTSRWebSocket.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTScrollContentShadowView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTScrollContentViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTScrollView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTScrollViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTScrollableProtocol.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTSegmentedControl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTSegmentedControlManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTSettingsManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTShadowRawText.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTShadowText.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTShadowTextField.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTShadowTextView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTShadowView+Layout.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTShadowView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTSlider.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTSliderManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTSourceCode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTStatusBarManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTSwitch.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTSwitchManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTVNavigationEventEmitter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTVRemoteHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTabBar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTabBarItem.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTabBarItemManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTabBarManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTText.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTextDecorationLineType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTextField.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTextFieldManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTextManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTextSelection.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTextView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTextViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTiming.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTouchEvent.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTTouchHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTUIManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTUIManagerObserverCoordinator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTUITextField.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTUITextView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTURLRequestDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTURLRequestHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTUtils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTVibration.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTViewControllerProtocol.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTWebSocketExecutor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTWebSocketModule.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTWebSocketObserver.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTWebSocketObserverProtocol.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTWebView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTWebViewManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/RCTWrapperViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/UIView+Private.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/React/UIView+React.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/Yoga/YGEnums.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/Yoga/YGMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/Yoga/YGNodeList.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Headers/Public/Yoga/Yoga.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Local Podspecs/React.podspec.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Local Podspecs/Yoga.podspec.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Manifest.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-LetsChief/Pods-LetsChief-acknowledgements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-LetsChief/Pods-LetsChief-acknowledgements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-LetsChief/Pods-LetsChief-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-LetsChief/Pods-LetsChief-frameworks.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-LetsChief/Pods-LetsChief-resources.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-LetsChief/Pods-LetsChief.debug.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-LetsChief/Pods-LetsChief.release.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/React/React-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/React/React-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/React/React.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Yoga/Yoga-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Yoga/Yoga-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Yoga/Yoga.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/authenticationFlow/LoginForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/authenticationFlow/RegistrationForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/ButtonCommon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/Card.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/CardSection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/ErrorModal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/Header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/Input.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/Spinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/rideFlow/MapScene.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.watchmanconfig" afterPath="$PROJECT_DIR$/.watchmanconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,14 +861,76 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="800">
+              <caret line="50" column="40" lean-forward="false" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".watchmanconfig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.watchmanconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-412">
+              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".babelrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.babelrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -34,6 +945,17 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/.watchmanconfig" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -45,9 +967,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1348" />
+    <option name="x" value="-1291" />
     <option name="y" value="-798" />
-    <option name="width" value="1336" />
+    <option name="width" value="1279" />
     <option name="height" value="724" />
   </component>
   <component name="ProjectView">
@@ -87,7 +1009,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="navigation" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -101,7 +1023,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="constants" />
+              <option name="myItemId" value="screens" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,16 +1151,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501445636595</updated>
-      <workItem from="1501445638288" duration="107000" />
+      <workItem from="1501445638288" duration="845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107000" />
+    <option name="totallyTimeSpent" value="845000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1348" y="-798" width="1336" height="724" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1291" y="-798" width="1279" height="724" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -255,7 +1176,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24343123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25464836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -298,12 +1219,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
+    <entry file="file://$PROJECT_DIR$/.watchmanconfig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-412">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="50" column="40" lean-forward="false" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
