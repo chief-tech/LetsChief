@@ -1,3 +1,5 @@
+node_modules/**/*
+.expo/**/*
 # OSX
 #
 .DS_Store
@@ -51,3 +53,4 @@ buck-out/
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
+>>>>>>> 171f47514098fd9c1d345e1216b7355cd0cebfca
