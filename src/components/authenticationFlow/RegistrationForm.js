@@ -1,10 +1,13 @@
 import React from 'react'
 import { Card, CardSection, Input, ButtonCommon, Spinner, ErrorModal } from '../common/index'
 import { Text, View, Image } from 'react-native'
-import { Actions } from 'react-native-router-flux'
 import firebase from 'firebase'
 
 class RegistrationForm extends React.Component {
+  static navigationOptions = {
+    title: 'registrationForm'
+  }
+
   constructor (props) {
     super(props)
     this.state = {
@@ -83,7 +86,7 @@ class RegistrationForm extends React.Component {
           loading: false
         })
       })
-      .then(() => Actions.loginForm())
+      .then(() => this.props.navigation.navigate('login'))
       .catch(err => {
         this.setState({
           hasError: true,

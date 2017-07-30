@@ -2,9 +2,12 @@ import React from 'react'
 import { Card, CardSection, Input, ButtonCommon, Spinner, ErrorModal } from '../common/index'
 import { Text, View, Image, TouchableOpacity } from 'react-native'
 import firebase from 'firebase'
-import { Actions } from 'react-native-router-flux'
 
 class LoginForm extends React.Component {
+  static navigationOptions = {
+    title: 'Login'
+  };
+
   constructor (props) {
     super(props)
     this.state = {
@@ -29,7 +32,6 @@ class LoginForm extends React.Component {
     firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
       .then(() => {
         this.setState({ loading: false, error: '' })
-        Actions.rider()
       })
       .catch((err) => this.setState({
         error: err.message,
@@ -46,7 +48,7 @@ class LoginForm extends React.Component {
       loading: false,
       hasError: false
     })
-    Actions.registrationForm()
+    this.props.navigation.navigate('registrationForm')
   }
 
   renderButton = () => {
