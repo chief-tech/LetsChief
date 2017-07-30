@@ -1,7 +1,7 @@
 import React from 'react'
 import firebase from 'firebase'
 import { View } from 'react-native'
-import AppRouter from './AppRouter'
+import Router from './AppRouter'
 
 export class App extends React.Component {
   componentWillMount () {
@@ -18,7 +18,7 @@ export class App extends React.Component {
 
   render () {
     return (
-      <AppRouter/>
+      <Router/>
     )
   }
 }
