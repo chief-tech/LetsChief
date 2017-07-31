@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, CardSection, Input, ButtonCommon, Spinner, ErrorModal } from '../common/index'
 import { View, Image, TouchableOpacity, Dimensions } from 'react-native'
-import { FormLabel, FormInput, FormValidationMessage, Button, SocialIcon, Icon } from 'react-native-elements'
+import { FormLabel, FormInput, FormValidationMessage, Button, SocialIcon, Icon, Text } from 'react-native-elements'
 import firebase from 'firebase'
 
 const HEIGHT = Dimensions.get('window').height
@@ -74,6 +74,7 @@ class LoginForm extends React.Component {
       <Image source={require('../../../assets/images/Background.png')}
              style={styles.backgroundImage}
              resizeMode={'stretch'}>
+        <Text h4 style={styles.headerStyle}>Login</Text>
         <View style={styles.containerStyle}>
           <FormLabel labelStyle={{color: '#007aff'}}>Email</FormLabel>
           <FormInput onChangeText={this.onChangeEmail}/>
@@ -90,11 +91,20 @@ class LoginForm extends React.Component {
                   textStyle={{fontSize: 20}}
           />
         </View>
+        <Text h4 style={styles.headerStyle}>Need an account?</Text>
         <View style={styles.iconContainer}>
           <SocialIcon
             style={styles.socialIcons}
             type="facebook"/>
-
+          <View style={[styles.circle, styles.socialIcons]}>
+            <Icon
+              name={'person-add'}
+              size={24}
+              color={'#007aff'}
+              raised
+              component={TouchableOpacity}
+              onPress={() => {}}/>
+          </View>
           <SocialIcon
             style={styles.socialIcons}
             type="twitter"/>
@@ -112,7 +122,12 @@ const styles = {
   containerStyle: {
     flex: 1,
     backgroundColor: 'rgba(0, 0, 0, 0)',
-    paddingTop: HEIGHT / 10
+  },
+  headerStyle: {
+    alignSelf: 'center',
+    color: '#007aff',
+    padding: HEIGHT / 15,
+    backgroundColor: 'rgba(0, 0, 0, 0)'
   },
   iconContainer: {
     flex: 1,
@@ -120,7 +135,13 @@ const styles = {
     justifyContent: 'space-around'
   },
   socialIcons: {
-    opacity: 0.6
+    opacity: 0.8
+  },
+  circle: {
+    width: 76,
+    height: 76,
+    borderRadius: 38,
+    opacity: 0.3
   }
 }
 

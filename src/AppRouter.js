@@ -11,7 +11,7 @@ const Router = StackNavigator({
     screen: RegistrationForm
   }},
   {
-    headerMode: 'float'
+    headerMode: 'none'
   }
 )
 
