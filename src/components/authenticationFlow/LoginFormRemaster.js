@@ -55,20 +55,6 @@ class LoginForm extends React.Component {
     this.props.navigation.navigate('registrationForm')
   }
 
-  renderButton = () => {
-    if (this.state.loading) {
-      return (
-        <Spinner size='large'/>
-      )
-    } else {
-      return (
-        <ButtonCommon onPress={this.onButtonPress}>
-          Let's Chief
-        </ButtonCommon>
-      )
-    }
-  }
-
   render () {
     return (
       <Image source={require('../../../assets/images/Background.png')}
@@ -103,7 +89,7 @@ class LoginForm extends React.Component {
               color={'#007aff'}
               raised
               component={TouchableOpacity}
-              onPress={() => {}}/>
+              onPress={() => {this.props.navigation.navigate('registrationForm')}}/>
           </View>
           <SocialIcon
             style={styles.socialIcons}
