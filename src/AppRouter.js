@@ -1,7 +1,7 @@
 import React from 'react'
 import { StackNavigator } from 'react-navigation'
-import LoginForm from './components/authenticationFlow/LoginForm'
-import RegistrationForm from './components/authenticationFlow/RegistrationForm'
+import LoginForm from './components/authenticationFlow/LoginFormRemaster'
+import RegistrationForm from './components/authenticationFlow/RegistrationFormRemaster'
 
 const Router = StackNavigator({
   login: {
@@ -10,6 +10,9 @@ const Router = StackNavigator({
   registrationForm: {
     screen: RegistrationForm
   }},
+  {
+    headerMode: 'none'
+  }
 )
 
 export default Router

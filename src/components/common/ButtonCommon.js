@@ -1,16 +1,16 @@
 import React from 'react'
 import { Text } from 'react-native'
-import { RkButton } from 'react-native-ui-kitten'
+import { Button } from 'react-native'
 
 export class ButtonCommon extends React.Component {
 
   render () {
     return (
-      <RkButton style={styles.buttonStyle} onPress={this.props.onPress}>
+      <Button style={styles.buttonStyle} onPress={this.props.onPress}>
         <Text style={styles.textStyle}>
           {this.props.children}
         </Text>
-      </RkButton>
+      </Button>
     )
   }
 }
