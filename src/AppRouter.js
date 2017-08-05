@@ -10,8 +10,8 @@ const Router = StackNavigator({
   },
   registrationForm: {
     screen: RegistrationForm
-  }
-  mapScene{
+  },
+  mapScene: {
     screen: MapStart
   }},
   {

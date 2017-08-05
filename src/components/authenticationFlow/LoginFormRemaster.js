@@ -73,7 +73,7 @@ class LoginForm extends React.Component {
                   title={"Let's Chief"}
                   backgroundColor={'rgba(0, 122, 255, 0.2)'}
                   component={TouchableOpacity}
-                  onPress={() => {}}
+                  onPress={() => {this.props.navigation.navigate('mapScene')}}
                   textStyle={{fontSize: 20}}
           />
         </View>
