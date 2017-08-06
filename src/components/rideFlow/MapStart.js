@@ -1,9 +1,11 @@
-import React from 'react';
-import { MapView } from 'expo';
+import React from 'react'
+import { MapView } from 'expo'
 import { ActivityIndicator } from 'react-native'
+import { Spinner } from '../common'
 
-const LATITUDE_DELTA = 0.0922
-const LONGITUDE_DELTA = 0.0421
+const LATITUDE_DELTA = 0.00522
+const LONGITUDE_DELTA = 0.00121
+const LOCATION_REFRESH = 1000
 
 export default class MapStart extends React.Component {
   constructor(props) {
@@ -19,6 +21,10 @@ export default class MapStart extends React.Component {
     }
   }
 
+  componentWillMount() {
+    this.loadCurrentPosition()
+  }
+
   getLocationPermission() {
     return Expo.Permissions.askAsync(Expo.Permissions.LOCATION)
   }
@@ -28,7 +34,7 @@ export default class MapStart extends React.Component {
     if (permission.status === 'granted') {
       const currentPos = Expo.Location.getCurrentPositionAsync({
         enableHighAccuracy: true,
-        timeInterval: 2000
+        timeInterval: LOCATION_REFRESH
       })
         .then(positionObject => {
           console.log(positionObject)
@@ -38,7 +44,7 @@ export default class MapStart extends React.Component {
     }
   }
 
-  componentWillMount() {
+  loadCurrentPosition() {
     this.getLocationPermission()
       .then(permission => this.getCurrentPosition(permission))
       .then(position => {
@@ -49,26 +55,55 @@ export default class MapStart extends React.Component {
             latitudeDelta: LATITUDE_DELTA,
             longitudeDelta: LONGITUDE_DELTA
           },
-          loading: false
+          loading: false,
+          coordinate: {
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude
+          }
         })
       })
   }
 
+  handleMarkerDrag = (e) => {
+    this.setState({
+      coordinate: e.nativeEvent.coordinate
+    })
+  }
+
+  handleMapDrag = (region) => {
+    this.setState({
+      region,
+      coordinate: {
+        latitude: region.latitude,
+        longitude: region.longitude
+      }
+    })
+  }
+
   render() {
+    console.log(this.state)
     if (this.state.loading) {
       return (
-        <ActivityIndicator size="large"/>
+        <Spinner />
       )
     }
     else {
-      return (
-        <MapView
-          style={{ flex: 1 }}
-          region={this.state.region}
-          showsUserLocation
-          followsUserLocation
-        />
-      );
+        return (
+          <MapView
+            style={{ flex: 1 }}
+            region={this.state.region}
+            showsUserLocation
+            showsPointsOfInterest={false}
+            rotateEnabled={false}
+            onRegionChange={this.handleMapDrag}
+            onMapReady={this.loadCurrentPosition}
+          >
+            <MapView.Marker title={'Pickup Location'}
+                            coordinate={this.state.coordinate}
+                            draggable
+                            onDragEnd={this.handleMarkerDrag}/>
+          </MapView>
+      )
     }
   }
 }
