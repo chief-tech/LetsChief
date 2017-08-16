@@ -1,13 +1,13 @@
 module.exports = {
-  "extends": "standard",
-  "parser": "babel-eslint",
-  "plugins": [
+  extends: "standard",
+  parser: "babel-eslint",
+  plugins: [
     "standard",
     "jsx-a11y",
     "react"
   ],
-  "rules": {
+  rules: {
     "no-unused-vars": 0,
-    "react/jsx-uses-vars": true
+    "react/jsx-uses-vars": 2
   }
 }

@@ -1,8 +1,9 @@
 import React from 'react'
 import { Card, CardSection, Input, ButtonCommon, Spinner, ErrorModal } from '../common/index'
-import { View, Image, TouchableOpacity, Dimensions } from 'react-native'
+import { View, Image, TouchableOpacity, Dimensions, Keyboard, TouchableWithoutFeedback } from 'react-native'
 import { FormLabel, FormInput, FormValidationMessage, Button, SocialIcon, Icon, Text } from 'react-native-elements'
 import firebase from 'firebase'
+import FireAuth from 'react-native-firebase-auth'
 
 const HEIGHT = Dimensions.get('window').height
 const WIDTH = Dimensions.get('window').width
@@ -36,12 +37,15 @@ class LoginForm extends React.Component {
     firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
       .then(() => {
         this.setState({ loading: false, error: '' })
+        console.log(this.state.error)
       })
-      .catch((err) => this.setState({
-        error: err.message,
-        loading: false,
-        hasError: true
-      }))
+      .catch((err) => {
+        return this.setState({
+          error: err.message,
+          loading: false,
+          hasError: true
+        })
+      }, console.log(this.state.error))
   }
 
   onRegisterPress = () => {
@@ -57,45 +61,52 @@ class LoginForm extends React.Component {
 
   render () {
     return (
-      <Image source={require('../../../assets/images/Background.png')}
-             style={styles.backgroundImage}
-             resizeMode={'stretch'}>
-        <Text h4 style={styles.headerStyle}>Login</Text>
-        <View style={styles.containerStyle}>
-          <FormLabel labelStyle={{color: '#007aff'}}>Email</FormLabel>
-          <FormInput onChangeText={this.onChangeEmail}/>
-          <FormValidationMessage>{this.props.error}</FormValidationMessage>
-          <FormLabel labelStyle={{color: '#007aff'}}>Password</FormLabel>
-          <FormInput onChangeText={this.onChangePassword}/>
-          <FormValidationMessage>{this.props.error}</FormValidationMessage>
-          <Button raised
-                  rounded
-                  title={"Let's Chief"}
-                  backgroundColor={'rgba(0, 122, 255, 0.2)'}
-                  component={TouchableOpacity}
-                  onPress={() => {}}
-                  textStyle={{fontSize: 20}}
-          />
-        </View>
-        <Text h4 style={styles.headerStyle}>Need an account?</Text>
-        <View style={styles.iconContainer}>
-          <SocialIcon
-            style={styles.socialIcons}
-            type="facebook"/>
-          <View style={[styles.circle, styles.socialIcons]}>
-            <Icon
-              name={'person-add'}
-              size={24}
-              color={'#007aff'}
-              raised
+      <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+        <Image source={require('../../../assets/images/Background.png')}
+               style={styles.backgroundImage}
+               resizeMode={'stretch'}>
+          <Text h4 style={styles.headerStyle}>Login</Text>
+            <View style={styles.containerStyle}>
+              <FormLabel labelStyle={{color: '#007aff'}}>Email</FormLabel>
+              <FormInput onChangeText={this.onChangeEmail} />
+              <FormValidationMessage>{this.props.error}</FormValidationMessage>
+              <FormLabel labelStyle={{color: '#007aff'}}>Password</FormLabel>
+              <FormInput
+                onChangeText={this.onChangePassword}
+                secureTextEntry
+              />
+              <FormValidationMessage>{this.props.error}</FormValidationMessage>
+              <Button raised
+                      rounded
+                      title={"Let's Chief"}
+                      backgroundColor={'rgba(0, 122, 255, 0.2)'}
+                      component={TouchableOpacity}
+                      onPress={() => { this.onButtonPress() }}
+                      textStyle={{fontSize: 20}}
+              />
+            </View>
+          <Text h4 style={styles.headerStyle}>Need an account?</Text>
+          <View style={styles.iconContainer}>
+            <SocialIcon
+              style={styles.socialIcons}
               component={TouchableOpacity}
-              onPress={() => {this.props.navigation.navigate('registrationForm')}}/>
+              onPress={() => { this.props.navigation.navigate('registrationForm') }}
+              type="facebook"/>
+            <View style={[styles.circle, styles.socialIcons]}>
+              <Icon
+                name={'person-add'}
+                size={24}
+                color={'#007aff'}
+                raised
+                component={TouchableOpacity}
+                onPress={() => { this.props.navigation.navigate('registrationForm') }}/>
+            </View>
+            <SocialIcon
+              style={styles.socialIcons}
+              type="twitter"/>
           </View>
-          <SocialIcon
-            style={styles.socialIcons}
-            type="twitter"/>
-        </View>
-      </Image>
+        </Image>
+      </TouchableWithoutFeedback>
     )
   }
 }
@@ -103,11 +114,11 @@ class LoginForm extends React.Component {
 const styles = {
   backgroundImage: {
     flex: 1,
-    width: null,
+    width: null
   },
   containerStyle: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0)',
+    backgroundColor: 'rgba(0, 0, 0, 0)'
   },
   headerStyle: {
     alignSelf: 'center',

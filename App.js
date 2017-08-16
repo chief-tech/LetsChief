@@ -5,12 +5,12 @@ import Router from './src/AppRouter'
 export class App extends React.Component {
   componentWillMount () {
     var config = {
-      apiKey: 'AIzaSyDWSikJ_edGbUL6qHVw4pK2VHx2wpDWFpo',
-      authDomain: 'letschief-ae90d.firebaseapp.com',
-      databaseURL: 'https://letschief-ae90d.firebaseio.com',
-      projectId: 'letschief-ae90d',
+      apiKey: 'AIzaSyB7YQDhbZxv47Vi8a8vgP3DzPB67QI0SAU',
+      authDomain: 'lets-chief-2975b.firebaseapp.com',
+      databaseURL: 'https://lets-chief-2975b.firebaseio.com',
+      projectId: 'lets-chief-2975b',
       storageBucket: '',
-      messagingSenderId: '596693327275'
+      messagingSenderId: '14605005582'
     }
     firebase.initializeApp(config)
   }
